@@ -57,12 +57,6 @@ This produces an executable named `TSP`.
 
 **Note**: The `location` library files must be present in the current directory when compiling.
 
-## 🧪 Testing Notes
-
-- The output must match format requirements (colon alignment, city order normalization, etc.)  
-- Tour equivalence is normalized by rotating and possibly reversing the city list to start at the first city  
-- Your code must be **Valgrind-clean**  
-- For invalid inputs: your program must **not crash or hang**, output can be anything or nothing  
 
 ## ⏱️ Performance Constraints
 
