@@ -1,0 +1,30 @@
+ESTIMATE of time to complete assignment: 25 hours
+
+Date   Time Started   Time Spent   Work Compeletd
+-----  ------------   -----------  ---------------
+9/22     5:00pm          2:00       Read assignment and tried to understand the spec fully. Later on looked at the starter code and went though it
+9/23     7:00pm          3:00       Went to office hours to get help with understanding the different files for the assignment and where to get started
+9/24     4:00pm          1:00       Went to Prof. Glenn to get help with starting over because I couldn't get past reading the file- he recommended 
+                                    I can start writing the heuristic functions and use the given array to test it.
+9/25     10:00pm         2:00       At the Sailathon, I got help from cs223 staff to do nearest and a bit of insert heuristics
+9/27     9:00pm          2:00       Finished up all my other functions except the read file.
+9/28     9:00pm          2:00       implementing my man function even though read file function was not working fully
+9/29     1:00pm          3:00       Got help from TAs fihuring out the issue with my read file function
+9/30     11:30am         3:30       I wasn't passing around 12 test cases so I went to office hours to get help with that- figured out I was reading some 
+                                    invalid files. After figuring that I was left with some 6 test cases that were because of memory leaks in my code therefore     
+                                    not passing the valgrind test. Figured out I was allocating memory in read file but forgot to free it. Got solved
+                        ------
+                         18:30      TOTAL time spent
+
+I got all the help I needed for this assignment from my TAs and professors
+
+DISCUSSION
+
+This assignment was intensive as it had a lot of things to handle. Implementation along with dealing with memory management and debugging was indeed hectic. The most 
+challenging bits for me was implementing neares and insert functions. It required a clear understanding of the problem and strategizing to crack it.On top of that, 
+implementing and testing the different heuristics was challenging, because I would realise my code is not working correctly after spending hours trying to write it. I encountered 
+several issues while trying to parse and read data from files because there were a couple of conditions to check to determine the validity of a file. Memory management was also 
+another significant focus; tracking dynamically allocated memory and freeing it appropriately required meticulous attention to avoid memory leaks. Since it was my first time using 
+a tool like valgrind, I had to spend time with TAs tring to understand the valgrind errors whenever I tried running the test cases. Overall, the assignment was a valuable learning 
+experience, reinforcing the importance of carefil planning, systematic testing, and effective debugging techniques.
+
